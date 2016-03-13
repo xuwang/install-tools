@@ -1,8 +1,11 @@
 # Instructions for tools installation on MacOS. 
 
-Install common DevOps tools - terraform, jq, vagrant, awscli, etc.
+- [Install AWS CLI and Setup AWS Credentials](#Install-AWS-CLI-and-Setup-AWS-credentials)
+- [Install Terraform](#install-terraform)
+- [Install Jq](#quick-start)
+- [Install Vagrant](#install-vagrant)
 
-**Install AWS CLI and Setup AWS credentials**
+## Install AWS CLI and Setup AWS credentials ##
 
 Go to [AWS Console](https://console.aws.amazon.com/).
 
@@ -31,7 +34,10 @@ Go to [AWS Console](https://console.aws.amazon.com/).
 $ aws configure [--profile profile-name]
 ```
 
-**Install [Terraform](http://www.terraform.io/downloads.html)**
+## Install Terraform ##
+
+See [Terraform](http://www.terraform.io/downloads.html) for documentation.
+
 ```
 $ brew update
 $ brew install terraform
@@ -44,12 +50,14 @@ $ curl -L -O https://releases.hashicorp.com/terraform/0.6.12/terraform_0.6.12_da
 $ unzip terraform_0.6.12_darwin_amd64.zip
 ```
 
-**Install [Jq](http://stedolan.github.io/jq/)**
+## Install Jq ##
+
+See [Jq](http://stedolan.github.io/jq/) for documentation.
 
 ```
 $ brew install jq
 ```
 
-**Install Vagrant**
+## Install Vagrant ##
 
 See [Vagrant](https://www.vagrantup.com/)
